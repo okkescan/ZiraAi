@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+body{
+    background-image: url('./background.jpg'); 
+    background-size: cover;
+}
+.baslik {
+    width: 30%;
+    height: 80px;
+    font-family: "Freeman", sans-serif;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 3%;
+    transform: translate(-50%,-3%);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.baslik h5{
+   margin: 0;
+   padding: 0;
+}
+
+.talimat {
+    width: 30%;
+    height: 200px;
+    font-family: "EB Garamond", serif;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+    transform: translate(-2%,-2%);
+    text-align: center;
+    border: 1px solid gray;
+    background-color: rgba(253, 253, 253, 0.366);
+    font-size: 1.6rem;
+}
+
+.islem {
+    position: absolute !important;
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    margin-left: 70%;
+    margin-top: -4%;    
+    width: 26%;
+    border: 1px solid gray;
+    text-align: center;
+    font-weight: 600;
+}
+.islem .btn{
+    background-color: #FFA62F;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem !important;
+    width: 4rem;
+    height: 1rem;
+    cursor: pointer;
+    transition: .2s ease;
+    margin-top: 6px;
+}
+    .islem input {
+        background-color: #FFA62F;
+        border: none;
+        border-radius: 2px;
+
+        width: 5rem;
+        height: 1rem;
+        cursor: pointer;
+        transition: .2s ease;
+        margin-top: 6px;
+    }
+.islem .btn:hover{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.7rem !important;
+    width: 4rem;
+    height: 1rem;
+    cursor: pointer;
+   
+}
+.sonuc {
+    position: absolute !important;
+    font-family: "EB Garamond", serif;
+    font-size: 1.4rem;
+    margin-left: 70%;
+    margin-top: -14%;
+    width: 26%;
+    border: 1px solid gray;
+    text-align: center;
+}
