@@ -1,2 +1,3 @@
 # ZiraAi
-Yapay Zeka dersi kapsamında geliştirmiş olduğum, bitki hastalıklarının tespiti konulu yapay zeka destekli web projesi
+Bu projenin amacı eğitilmiş olan bir yapay zeka modelini web uygulamasına entegre edip çalıştırmaktır. </br> 
+CNN derin öğrenme modeli ve ResNet9 mimarisi kullanılarak eğitilmiş olan model kaydedildi ve Python ile bu modelin çalıştırılarak veri alışverişi sağlanabilecek bir API geliştirildi. Geliştirilmiş olan bu API, Asp.Net Core 6 ile geliştirilmiş olan web uygulamasında çağırılarak, bitkinin yaprağının fotoğrafının sisteme yüklenmesi sayesinde API'den dönen cevabın arayüzde gösterilmesi sağlandı. Bu proje Fırat Üniversitesi Teknoloji Fakültesi Yazılım Mühendisliği bölümünde Yapay Zeka dersi için hazırlandı. Yapay zeka modeli kaggle platformunda herkese açık olarak paylaşılmış olan bir modeldir ( https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data ).
